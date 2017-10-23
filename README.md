@@ -3,7 +3,7 @@ Essay on the Agile Philosophy
 
 **Agile Research Essay Proposal**
 
-For my essay I will be addressing the question "How can frequent play-testing during agile development direct a project towards a better end product." To address this question I will be looking mainly at research articles focusing on play-testing effects on development, different types of play-testing and articles looking at where play-testing fits with current agile development processes. I would like to look into the viability of more frequent play-testing for smaller companies vs bigger ones as well to help companies see where this research and fit in for them.
+For my essay I will be addressing the question "How can frequent play-testing during agile development direct a project towards a better end product." To address this question I will be looking mainly at research articles focusing on play-testing effects on development, different types of play-testing and articles looking at where play-testing fits with current agile development processes. I would like to look into the viability of more frequent play-testing for smaller companies vs bigger ones as well to help companies see where this research and fit in for them. I would like to compare a couple of projects one using frequent playtests throughout the developement process and one only using playtests towards the end of the cycle to see the differences in the final product polish.
 
 References
 
