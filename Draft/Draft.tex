@@ -1,36 +1,50 @@
-\documentclass{article}
-\usepackage{fancyhdr}
+% Please do not change the document class
+\documentclass{scrartcl}
+
+% Please do not change these packages
+\usepackage[hidelinks]{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{setspace}
+\doublespace
+
+% You may add additional packages here
+\usepackage{amsmath}
+
+% Please include a clear, concise, and descriptive title
+\title{Playtesting during agile game development, creating an enjoyable product}
+
+% Please do not change the subtitle
+\subtitle{COMP150 - Agile Development Practice}
+
+% Please put your student number in the author field
+\author{1706966}
 
 \begin{document}
-	\noindent
-	\large\textbf{Current Question}
 	
-	\normalsize How can frequent play-testing during agile game development direct a project towards a more enjoyable product for the end user.\\
-	\\
-	\noindent
-	\large\textbf{Ideas to look at}
-	\begin{itemize}
-	  \normalsize\item Game development isn't just about creating a working user friendly product like most software dev, but also making it an enjoyable experience?
-	  \item Human testing vs automated, the later being easier to do regularly but doesn't show enjoyment?
-	  \item
-	\end{itemize}
-	\large\textbf{References}
+	\maketitle
 	
-	\normalsize[1]N. Moosajee and P. Mirza-Babaei, "Games User Research (GUR) for Indie Studios", Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA '16, 2016.
+	\abstract{This paper looks at how frequent playtesting during agile research development helps create a more enjoyable product for the end user, it does this by looking at different research documents centred around agile testing processes. There is a focus on how enjoyment can only be measured correctly with interaction between the target audience and the game. Going on to summarise that early playtesting using agile is possible for all sizes of projects and saves time by highlighting potential changes early in the development cycle. Because these changes are driven by the target audience the finished product is more enjoyable for the user.}
 	
-	[2]M. STOICA, M. MIRCEA and B. GHILIC-MICU, "Software Development: Agile vs. Traditional", Informatica Economica, vol. 17, no. 42013, pp. 64-76, 2013.
+	\section{Introduction}
 	
-	[3]E. Ollila, R. Suomela and J. Holopainen, "Using prototypes in early pervasive game development", Computers in Entertainment, vol. 6, no. 2, p. 1, 2008.
+	Playtesting is a process of all game development, however there are multiple ways to go about it. This paper will be advocating for frequent, iterative playtesting throughout the development cycle using target audience playtesters and the agile philosophy\cite{fowler2001agile}. With an outcome of increased enjoyment for the end user and time saved in product changes and bug fixing in late stage development. The difference between target audience and professional playtesting will be looked at and how to have these combined saves additional time. Along with showing the viability for this process to be used in any size project, altogether showing the best way to move forward with playtesting in the game development industry. It has been said about game design "begin by thinking about the experiences you want your players to have, understand what makes a game, and understand what pleasures people find in them."\cite{costikyan2005have} the only way to measure if your game is pleasurable for your target audience is through playtesting.
 	
-	[4]E. Powley, S. Colton, S. Gaudl, R. Saunders and M. Nelson, "Semi-automated level design via auto-playtesting for handheld casual game creation", 2016 IEEE Conference on Computational Intelligence and Games (CIG), 2016.
+	\section{Playtesting for enjoyment}
+	There are various methods for playtesting, such as automated software mentioned  here\cite{powley2016semi}, although this type helps look to see if mechanics are viable and look for bugs it doesn't help us see the human enjoyment of the game. The method this paper is interested in is human testing, literally getting people to play the game or parts of it while monitoring their experience and requesting feedback. With this type you are able to get different data on how enjoyable the tester found specific parts of the game. Data can be collected by feedback from the tester themselves but also from monitoring facial expressions, audible noises from the tester and gameplay interactions. A games user research\cite{moosajee2016games} paper shows a way to create a basic set up to collect the data on these, although more sophisticated ways can be implemented with a higher budget. By using the agile method of game development, you constantly have new working sections of your game, these can be tested individually during production to discover if there are improvements to be made before moving on. Having the developers present during playtests drives them to fix issues quicker and if something is really enjoyable to the player, to consider if should that could be implemented in different aspects of the game where it may not have yet been considered\cite{moosajee2016games}. It is good to have the testers involved early in the process, having access to the planning, stand-ups and review meetings where possible\cite{cruzes2016communication}. This gives an insight into the direction of the game or part of it, allowing for more accurate feedback.
 	
-	[5]M. Schatten, I. Tomicic, B. Duric and N. Ivkovic, "Towards an agent-based automated testing environment for massively multi-player role playing games", 2017 40th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2017.
+	\section{Hitting the target market}
+	To accurately measure the users enjoyment it is important to make sure you are using playtesters matching your target audience, otherwise findings can not be confidently applied to the game\cite{moosajee2016games}. An advised way to proceed with finding correct testers is to create user persona's that can be used when looking to hire testers, allowing for an "easier time finding representative participants for their user tests"\cite{moosajee2016games}. It is possible to combine professional testers and target market testers by using the persona method previously mentioned. The combined testers are best used for early stage testing as they will have a deeper understanding of unfinished products\cite{ollila2008using}. When towards the end of development you can look at using testers who are just in the target market and not professional to get a good idea of how the end user will respond, this leads into large group testing of the target market, where it is not always possible to have developers attend the playtests and as the test group grows it may become tricky to sort the feedback data depending on how it is set up.
 	
-	[6]D. Cruzes, N. Moe and T. Dyba, "Communication between Developers and Testers in Distributed Continuous Agile Testing", 2016 IEEE 11th International Conference on Global Software Engineering (ICGSE), 2016. 
+	\section{All project sizes}
+	Its commonly argued that agile doesn't work well for larger projects, however this paper here\cite{talby2006agile} shows how agile testing was used on a large software project saving a sizeable amount of time on fixing defects, defect longevity, and defect-management overhead, although this wasn't for a game related project, so enjoyment wasn't considered, it does show that agile testing can be used for larger projects and have it work successfully. On the opposite side it can be a worry for smaller projects to have the funding to be playtesting early in the project time line, but this paper\cite{moosajee2016games} shows that cheap set ups can be made to accommodate the type of user testing needed to monitor enjoyment at a low cost, it also states how even using colleagues can be a good option at the very beginning, it's likely that they will have an interest in the game but the feedback for enjoyment should not be considered too heavily as they have a vested interest in the project. With these points made it is clear that the agile testing method can be used successfully in both large and small projects, from beginning to end with improvements for the end product.
 	
-	[7]M. STOICA, B. GHILIC-MICU, M. MIRCEA and C. USCATU, "Analyzing Agile Development – from Waterfall Style to Scrumban", Informatica Economica, vol. 20, no. 42016, pp. 5-14, 2016.
 	
-	[8]D. Talby, A. Keren, O. Hazzan and Y. Dubinsky, "Agile software testing in a large-scale project", IEEE Software, vol. 23, no. 4, pp. 30-37, 2006.
+	\section{Conclusion}
 	
-	[9]J. Doran and C. Gatzidis, UDK iOS game development beginner's guide. Birmingham: Packt Publishing, 2012.
+	This paper clearly shows that it is possible for all sizes of game development projects have the ability to implement user playtesting from an early stage in their development cycle while using agile, and that by doing this they will not only be saving money and time but more importantly end up with an enjoyable product for their users. This way of working also could be implemented in non-game specific software development but more research would be needed to confirm the benefits. It will likely always be tricky to measure enjoyment accurately, more so before the product is complete but this paper does show that it is worthwhile to do what is possible as this still has a good impact on the project.
+	
+	
+	\bibliographystyle{ieeetran}
+	\bibliography{references}
+	
 \end{document}
